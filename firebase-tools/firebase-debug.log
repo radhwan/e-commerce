@@ -1,0 +1,78 @@
+[debug] [2017-09-11T16:43:11.743Z] ----------------------------------------------------------------------
+[debug] [2017-09-11T16:43:11.746Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\radoun\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-11T16:43:11.746Z] CLI Version:   3.10.1
+[debug] [2017-09-11T16:43:11.746Z] Platform:      win32
+[debug] [2017-09-11T16:43:11.746Z] Node Version:  v8.2.1
+[debug] [2017-09-11T16:43:11.747Z] Time:          Mon Sep 11 2017 18:43:11 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:11.747Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-11T16:43:11.764Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-11T16:43:11.765Z] > authorizing via signed-in user
+[debug] [2017-09-11T16:43:11.768Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-09-11T16:43:11.768Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/TD0YBK7QbZxkJQGZdngklZdkK08EFAkVL6rriOZv5Ls',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Mon Sep 11 2017 18:43:11 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:13.586Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:13.593Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ecommerce-6c34a  
+ Mon Sep 11 2017 18:43:13 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:14.389Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:14.391Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ecommerce-6c34a/tokens  
+ Mon Sep 11 2017 18:43:14 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:15.079Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\radoun\Documents\e-commerce\firebase-tools'...
+[info] 
+[debug] [2017-09-11T16:43:15.101Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-6c34a  
+ Mon Sep 11 2017 18:43:15 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:15.969Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:15.970Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/76100237222/clients/_:getWebAppConfig  
+ Mon Sep 11 2017 18:43:15 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:16.635Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:16.687Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\radoun\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1346:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2017-09-11T16:43:28.286Z] ----------------------------------------------------------------------
+[debug] [2017-09-11T16:43:28.289Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\radoun\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2017-09-11T16:43:28.290Z] CLI Version:   3.10.1
+[debug] [2017-09-11T16:43:28.290Z] Platform:      win32
+[debug] [2017-09-11T16:43:28.290Z] Node Version:  v8.2.1
+[debug] [2017-09-11T16:43:28.291Z] Time:          Mon Sep 11 2017 18:43:28 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:28.291Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-09-11T16:43:28.310Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-09-11T16:43:28.311Z] > authorizing via signed-in user
+[debug] [2017-09-11T16:43:28.314Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ecommerce-6c34a  
+ Mon Sep 11 2017 18:43:28 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:29.157Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:29.160Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ecommerce-6c34a/tokens  
+ Mon Sep 11 2017 18:43:29 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:29.879Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\radoun\Documents\e-commerce\firebase-tools'...
+[info] 
+[debug] [2017-09-11T16:43:29.892Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ecommerce-6c34a  
+ Mon Sep 11 2017 18:43:29 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:31.039Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:31.040Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/76100237222/clients/_:getWebAppConfig  
+ Mon Sep 11 2017 18:43:31 GMT+0200 (Europe de l’Ouest (heure d’été))
+[debug] [2017-09-11T16:43:31.618Z] <<< HTTP RESPONSE 200
+[debug] [2017-09-11T16:43:31.685Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\radoun\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:314:30)
+    at emitNone (events.js:105:13)
+    at Server.emit (events.js:207:7)
+    at emitListeningNT (net.js:1346:10)
+    at _combinedTickCallback (internal/process/next_tick.js:135:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9)
+[error] 
+[error] Error: An unexpected error has occurred.
